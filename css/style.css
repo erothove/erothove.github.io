@@ -4,6 +4,9 @@ div.box-container {
 	margin-top: 5px;
 	margin-bottom: 5px; 
 }
+a img {
+	border:0; 
+}
 
 div.box-container a {
 	display: inline-block;
@@ -105,9 +108,11 @@ h2 {
 	font-size: 20px;
 	margin-top: 20px; 
 	margin-bottom: 30px; 
+}
+.strong{
 	width: 800px; 
 	margin: 0 auto;
-	list-style-position: inside; 	
+	margin-top: 20px;  
 }
 
 .bold {
