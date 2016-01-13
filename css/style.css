@@ -5,7 +5,8 @@ div.box-container {
 	margin-bottom: 5px; 
 }
 a img {
-	border:0; 
+	border:0;  
+	vertical-align: top; 
 }
 
 div.box-container a {
