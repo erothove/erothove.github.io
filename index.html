@@ -7,19 +7,37 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link href="css/featherlight.min.css" type="text/css" rel="stylesheet" />
+  
+ 
 
 </head>
 
-<body> <!-- Header
-	<h1> Practice Areas</h1>
+<body> 
+	<h1> International Education: Practice Areas </h1> <!-- Header
 	<div id="header"><p> Information about Practice Areas </p> </div> -->
+		<!-- Email -->
+	<div class="emailinfo">
+	<form action="http://formspree.io/erothove.Contractor@rti.org"
+      name="contactform" method="POST" a>
+    <p>
+	<label for='name'>Your Name:</label> 
+	<input type="text" name="name"> 
+	<label for='email'>Email Address:</label>
+	<input type="text" name="email"> 
+	<input type="submit" value="Submit"><br> 	
+	</p>
+	<input type="hidden" name="_next" value="" />
+	</form>
+	</div>
 	<div class="box-container">
 		<a href="#" data-featherlight="#TeachingLearning"><img src="images/Picture1.png" alt="Girl" class="main"></a>
 		<a href="#" data-featherlight="#EducationEvaluation"><img src="images/Picture5.png" alt="eval" class="main"></a>
 		<a href="#" data-featherlight="#InformationTech"><img src="images/Picture2.png" alt="books" class="main"></a>
 		<a href="#" data-featherlight="#PolicySystems"><img src="images/Picture4.png" alt="policy" class="main"></a>
-		<a href="#" data-featherlight="#EarlyChildhood"><img src="images/Picture3.png" alt="girls" class="main"></a>
+		<a href="#" data-featherlight="#Holder2"><img src="images/Picture7.png" alt="holder2" class="main"></a>
+		<a href="#" data-featherlight="#HolderPhoto"><img src="images/Picture6.png" alt="holder" class="main"></a>
 	</div>
+
 	<!--Box info begins --> 
 	<div class= "box1">
 	<div class="lightbox" id="TeachingLearning">
@@ -45,9 +63,11 @@
 		<p> TBD </p>
 	</div> 
 
-<img src= "images/RTILogo.png" class="Logo">
+<img src= "images/RTILogo.png" class="Logo" alt= "Logo">
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
+<script type="text/javascript"> document.getElementsByName('_next')[0].value=window.location.href; </script>
+
 </html>
