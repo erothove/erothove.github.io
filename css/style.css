@@ -19,6 +19,9 @@ div.box-container a {
 	max-width: 520px;  
 }
 
+div.header {
+	margin-bottom: 5%; 
+}
 
 div.open {
 	text-align: center; 
