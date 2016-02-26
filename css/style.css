@@ -35,14 +35,16 @@ div.button {
 	font-family: "Verdana";
 	text-decoration: none; 
 	color: white; 
-	font-size: 22px; 
+	font-size: 20px; 
 	margin:0 auto;  
 	position: relative; 
-	margin-left: 81%; 
-	margin-bottom: -1%;
-	margin-top: -8%;
+	margin-left: 80%; 
+	margin-bottom: 4%;
+	margin-top: -6%;
 	text-align: center; 
 	text-decoration: none; 
+	border-radius: 7px; 
+	box-shadow: inset 0 0.6px 4px rgba(0, 0, 0, 0.6);
 }
 
 div.button a {
@@ -141,7 +143,7 @@ p {
 
 .Logo{
 	position: relative; 
-	margin-left: 8%; 
+	margin-left: 4%; 
 	margin-bottom: 1.5%;
 	margin-top: -7%; 
 	width: 12%; 
